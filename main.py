@@ -2,7 +2,7 @@ from hpTunerMSE_Day import stockHpTuner
 import datetime as dt
 
 """Main script to show how to utilise the hpTunerMSE_Day script"""
-# A stockHpTuner object is created and parameters are listed with wanted values. README goes into details on the parameters.
+# A stockHpTuner object is created and parameters are listed with wanted values.
 hpTuner = stockHpTuner(
     # (Mandatory parameter) ticker needs to be specified to determine the stock data that will be tuned.
     ticker = "AMD",
