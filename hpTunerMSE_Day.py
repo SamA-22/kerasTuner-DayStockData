@@ -51,7 +51,7 @@ class stockHpTuner:
     _trainX: None
         Parameter that will store the data that will be used to train the model
     _trainY: None
-        Parameter that will store the daya that will be used to error check the model when trained with the trainX data
+        Parameter that will store the data that will be used to error check the model when trained with the trainX data
     
     Methods
     -------
@@ -114,7 +114,7 @@ class stockHpTuner:
         _trainX: None
             Parameter that will store the data that will be used to train the model
         _trainY: None
-            Parameter that will store the daya that will be used to error check the model when trained with the trainX data
+            Parameter that will store the data that will be used to error check the model when trained with the trainX data
         """
         varsDefaults = {
             "ticker": "",
