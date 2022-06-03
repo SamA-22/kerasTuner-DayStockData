@@ -33,7 +33,7 @@ Description of the parameters needed to be inputed are present in both main code
 ## Potential Updates
 
 - [x] Re-model the structure of the script to utilise classes.
-- [o] Delete irelivant trials and keep best tried to conserve storage space.
-- [] When perfect hyperparams are found train the model till weights that predict most accurately are saved.
-- [] List holding multiple tickers that will run one after the next.
-- [] Try catch to hyperparameterTweaking() to ensure train data retrieved and set before training model. 
+- [ ] Delete irelivant trials and keep best tried to conserve storage space.
+- [ ] When perfect hyperparams are found train the model till weights that predict most accurately are saved.
+- [ ] List holding multiple tickers that will run one after the next.
+- [ ] Try catch to hyperparameterTweaking() to ensure train data retrieved and set before training model. 
