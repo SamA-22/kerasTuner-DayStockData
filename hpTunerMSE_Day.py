@@ -299,7 +299,7 @@ class stockHpTuner:
             self.createModel, 
             objective = "mse",
             max_epochs = self.searchMaxEpochs,
-            directory = f"Neural network\SelfMadeNNs\RNNs\hpTuner\hptuner-usingAClass\hpTunerMSE-day",
+            directory = f"hpTunerMSE-day",
             project_name = f"{self.ticker}")
         #Preforms the search for the best hyperparameters using the train data(epochs and batch size used holds default values).
         tuner.search(trainX, trainY, epochs = self.searchMaxEpochs, batch_size = self.batchSize)
